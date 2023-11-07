@@ -62,3 +62,18 @@ window.addEventListener('touchmove', event => {
 
 homeScene.animate()
 ```
+
+## Loading Bar example (tailwind)
+```html
+<div class="fixed top-0 left-0 w-screen h-screen backdrop-blur z-50 flex justify-center items-center" id="progressWrapper">
+    <div class="w-1/2 bg-white h-10 overflow-hidden rounded-full">
+        <div
+                id="progress"
+                class="h-full bg-purple-800 p-0.5 text-center text-xs font-medium leading-none text-white flex justify-center items-center"
+                style="width: 0"
+        >
+            0%
+        </div>
+    </div>
+</div>
+```
